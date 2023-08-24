@@ -100,3 +100,64 @@ if (age < 18) {
     console.log("You are adult")
 }
 ```
+```js
+// Conditional (ternary) operator
+
+condition ? expressTrueBlock : expressFalseBlock
+
+// Example
+let age = 18;
+age < 18 ? console.log("You are young") : console.log("You are old");
+```
+
+#### #3 Loop (block)
+```js
+// For loop 
+for (expression 1; expression 2; expression 3) {
+  // code block to be executed
+}
+
+// Example
+let arr = [1, 2, 3];
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+}
+```
+```js
+// For In loop (by index)
+for (key in object) {
+  // code block to be executed
+}
+
+// Example
+let arr = [1, 2, 3];
+for (let index in arr) {
+    console.log(arr[index]);
+}
+```
+```js
+// For Of Loop (by value)
+for (variable of iterable) {
+  // code block to be executed
+}
+
+// Example
+let arr = [1, 2, 3]
+for (let number of arr) {
+    console.log(number);
+}
+```
+```js
+// While Loop 
+while (condition) {
+  // code block to be executed
+}
+
+// Example
+let arr = [1, 2, 3]
+let i = 0;
+while (i < arr.length) {
+    console.log(arr[i]);
+    i++;
+}
+```
